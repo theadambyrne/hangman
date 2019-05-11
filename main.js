@@ -5,5 +5,5 @@ xhttp.onreadystatechange = function () {
 		alert(this.responseText());
 	}
 };
-xhttp.open("GET", "http://setgetgo.com/randomword/get.php" + wordLen, true);
+xhttp.open("GET", "https://setgetgo.com/randomword/get.php" + wordLen, true);
 xhttp.send();
