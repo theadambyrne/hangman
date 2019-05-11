@@ -7,7 +7,7 @@ class Dictionary {
 		this.length = this.words.length
 	}
 	randomWord() {
-		var i = Math.random() * this.length
+		var i = Math.round(Math.random() * this.length)
 		return this.words[i]
 	}
 }

@@ -1,5 +1,5 @@
 class Hangman {
-	constructor(lives) {
-		this.lives = lives
+	constructor() {
+		this.lives = 6
 	}
 }
